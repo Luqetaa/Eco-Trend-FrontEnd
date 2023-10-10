@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narga Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header id="header" class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <div class="logo d-flex align-items-center pb-2">
+                <img src="./media/logo-h1.png" alt="logo da loja">
+                <h1 class="navbar-brand m-0 section-title">Narga Store</h1>
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu-navegacao" class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link d-flex" href="#sobre"><box-icon class="me-1" name='home-alt-2'
+                                color="#5fa3f7"></box-icon>Início</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link d-flex" href="#produtos"><box-icon class="me-1" name='shopping-bag'
+                                color="#5fa3f7"></box-icon>Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link d-flex" href="#eventos"><box-icon class="me-1" name='calendar-event'
+                                color="#5fa3f7"></box-icon>Eventos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link d-flex" href="#contato"><box-icon class="me-1" name='support'
+                                color="#5fa3f7"></box-icon>Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="header">
+        <section id="sobre">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./media/carousel-rosh.webp" alt="slide promoção de rosh">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./media/carousel-narguiles.webp" alt="slide modelos de narguiles">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./media/carousel-acessorios.webp" alt="slide disponibilidade de acessórios">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="d-block w-100" src="./media/logo.png" alt="logo da loja">
+                    </div>
+                    <div class="col-md-7 pt-5">
+                        <h2 class="section-title">Quem <span>somos</span></h2>
+                        <p>Bem-vindo à nossa fascinante loja de narguilés em São Paulo, onde a paixão pela cultura do
+                            narguilé ganha vida. Situada no coração desta vibrante metrópole, nossa loja é um verdadeiro
+                            paraíso para os entusiastas do narguilé.
+                        </p>
+                        <h3 class="section-title">O que <span>fazemos</span></h3>
+                        <p>Ao adentrar nossa loja, você será envolvido por um ambiente que respira cultura do narguilé.
+                            Temos uma vasta seleção de narguilés, desde os tradicionais até os mais modernos e
+                            estilosos. Nossas prateleiras estão repletas das melhores essências, oferecendo uma
+                            variedade incrível de sabores e aromas para atender a todos os paladares.</p>
+                            <button type="button">
+                                <a href="#contato">SAIBA MAIS</a>
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <h2 class="section-title pb-4">Nossos produtos</h2>
+                
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#narguile" type="button" role="tab" aria-controls="home" aria-selected="true">Narguiles Completos</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#stem" type="button" role="tab" aria-controls="profile" aria-selected="false">Stem</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#vasos" type="button" role="tab" aria-controls="messages" aria-selected="false">Vasos</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#pratos" type="button" role="tab" aria-controls="messages" aria-selected="false">Pratos</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#mangueiras" type="button" role="tab" aria-controls="messages" aria-selected="false">Mangueiras</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#rosh" type="button" role="tab" aria-controls="messages" aria-selected="false">Rosh</button>
+                  </li>
+                </ul>
+                
+                <div class="tab-content">
+                  <div class="tab-pane active" id="narguile" role="tabpanel">
+                    <div class="row mt-3">
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                            <div class="card border-0 text-center">
+                                <img class="card-img-top" src="./media/narguiles/NARGUILE AMAZON PRIDE CINZA CHUMBO - 659.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Narguile Amazon Pride Unique Cinza Metal...</h4>
+                                    <strong>R$ 659,90</strong>
+                                    <p class="card-text">10x sem juros R$ 65,99 <br> -5% boleto ou pix <strong>R$ 626,91</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                            <div class="card border-0 text-center">
+                                <img class="card-img-top" src="./media/narguiles/NARGUILE MÉDIO HOOKAH KING ROYALE ROSE 749.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Narguile Médio Hookah King Royale Rose...</h4>
+                                    <strong>R$ 749,00</strong>
+                                    <p class="card-text">10x sem juros R$ 74,90 <br> -5% boleto ou pix <strong>R$ 711,55</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                            <div class="card border-0 text-center">
+                                <img class="card-img-top" src="./media/narguiles/NARGUILE MANI SULTAN PLUS DEEP RED 1016.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Narguile Mani Sultan Plus Deep Red Prato...</h4>
+                                    <strong>R$ 1016,41</strong>
+                                    <p class="card-text">10x sem juros R$ 101,64 <br> -5% boleto ou pix <strong>R$ 965,59</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                            <div class="card border-0 text-center">
+                                <img class="card-img-top" src="./media/narguiles/NARGUILE PEQUENO COMPLETO TRITON ZIP 167,20.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Narguile Pequeno Completo Triton Zip Vaso...</h4>
+                                    <strong>R$ 167,20</strong>
+                                    <p class="card-text">10x sem juros R$ 16,72 <br> -5% boleto ou pix <strong>R$ 158,84</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                            <div class="card border-0 text-center">
+                                <img class="card-img-top" src="./media/narguiles/NARGUILE SORRILHA HOOKAH HELO ZINHA MÉDIO 569,25.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Narguile Sorrilha Hookah Helo Zinha Médio...</h4>
+                                    <strong>R$ 569,25</strong>
+                                    <p class="card-text">10x sem juros R$ 56,93 <br> -5% boleto ou pix <strong>R$ 540,79</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                            <div class="card border-0 text-center">
+                                <img class="card-img-top" src="./media/narguiles/NARGUILE TRITON UP ROXO VASO NASA GENIE 659,90.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Narguile Triton Up Roxo Vaso Nasa Genie...</h4>
+                                    <strong>R$ 659,90</strong>
+                                    <p class="card-text">10x sem juros R$ 65,99 <br> -5% boleto ou pix <strong>R$ 626,91</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                            <div class="card border-0 text-center">
+                                <img class="card-img-top" src="./media/narguiles/NARGUILE TRITON VIPER ZODIACO TOURO DOURADO 740,91.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Narguile Triton Viper Zodíaco Touro...</h4>
+                                    <strong>R$ 740,91</strong>
+                                    <p class="card-text">10x sem juros R$ 74,09 <br> -5% boleto ou pix <strong>R$ 703,86</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                            <div class="card border-0 text-center">
+                                <img class="card-img-top" src="./media/narguiles/NARGUILE AMAZON FUTURE MARMORIZADO PIOPO METAL COBRE 589,00.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Narguile Amazon Future Marmorizado Piopo...</h4>
+                                    <strong>R$ 589,00</strong>
+                                    <p class="card-text">10x sem juros R$ 58,90 <br> -5% boleto ou pix <strong>R$ 559,55</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="stem" role="tabpanel"> profile </div>
+                  <div class="tab-pane" id="vasos" role="tabpanel"> messages </div>
+                  <div class="tab-pane" id="pratos" role="tabpanel"> messages </div>
+                  <div class="tab-pane" id="mangueiras" role="tabpanel"> messages </div>
+                  <div class="tab-pane" id="rosh" role="tabpanel"> messages </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos">
+            <h2 class="section-title">Nossos eventos</h2>
+        </section>
+        <section id="contato">
+            <h2 class="section-title">Contato</h2>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
