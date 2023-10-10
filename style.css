@@ -8,7 +8,12 @@
     font-family: 'Pacifico', cursive;
 }
 
-.section-title span {
+.article-title {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 0px #5fa3f7, 0px 0px 5px black;
+}
+
+.span-style {
     color: #5fa3f7;
 }
 
@@ -78,7 +83,7 @@ header .container button box-icon {
     height: 7px;
 } 
 
-#sobre .container img {
+#eventos .container img {
     animation: flutuar 2s ease-in-out infinite;
 }
 
@@ -91,7 +96,7 @@ header .container button box-icon {
     }
   }
 
-#sobre .container button {
+#eventos .container button {
     width: 200px;
     height: 36px;
     border: 1px solid #5fa3f7;
@@ -99,26 +104,22 @@ header .container button box-icon {
     transition: all .35s ease;
 }
 
-#sobre .container button a {
+#eventos .container button a {
     text-decoration: none;
     font-weight: 600;
     color: #5fa3f7;
 }
 
-#sobre .container button:hover {
+#eventos .container button:hover {
     color: #fff;
     background-color: #5fa3f7;
 }
 
-#sobre .container button:hover a {
+#eventos .container button:hover a {
     color: #fff;
 }
 
 /* Produtos */
-
-#produtos .container h2 {
-    text-shadow: 2px 2px 0px #5fa3f7, 0px 0px 5px black;
-}
 
 #produtos .nav-tabs .nav-link {
     color: #5fa3f7;
@@ -156,6 +157,7 @@ header .container button box-icon {
 
 #produtos .container .card p strong {
     font-size: 16px;
+    color: #000;
 }
 
 #produtos .container .card:hover {
