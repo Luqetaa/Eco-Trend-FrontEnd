@@ -1,1 +1,1 @@
-Este projeto tem como objetivo demonstrar o aprendizado de estilos básicos usando o Bootstrap, com ênfase principalmente na construção de linhas e colunas responsivas.
+Este projeto tem como objetivo demonstrar o aprendizado de estilos básicos usando o Bootstrap, com ênfase principalmente na construção de linhas e colunas responsivas, além de alguns plugins JavaScript capazes de tornar a usabilidade mais dinâmica.
