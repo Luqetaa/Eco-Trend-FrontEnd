@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+:root{
+    --secundary-color: #bfa688;
+    --complemtary-color: #2c442c;
+    --bg-color: #0d0908;
+}
+
 /* Section style */
 
 .section-title {
@@ -10,11 +16,11 @@
 
 .article-title {
     font-family: 'Pacifico', cursive;
-    text-shadow: 2px 2px 0px #5fa3f7, 0px 0px 5px black;
+    text-shadow: 2px 2px 0px var(--complemtary-color), 0px 0px 5px black;
 }
 
 .span-style {
-    color: #5fa3f7;
+    color: var(--complemtary-color);
 }
 
 /* Cabeçalho */
@@ -24,7 +30,7 @@
     top: 0;
     left: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
-    background-color: #5fa3f7;
+    background-color: var(--complemtary-color);
 }
 
 header .container h1 {
@@ -49,7 +55,7 @@ header .container img {
 
 #menu-navegacao .nav .nav-item .nav-link.active {
     background-color: #fff;
-    color: #5fa3f7;
+    color: var(--complemtary-color);
 }
 
 #menu-navegacao .nav .nav-item .nav-link box-icon {
@@ -99,7 +105,7 @@ header .container button box-icon {
 #eventos .container button {
     width: 200px;
     height: 36px;
-    border: 1px solid #5fa3f7;
+    border: 1px solid var(--complemtary-color);
     background-color: transparent;
     transition: all .35s ease;
 }
@@ -107,12 +113,12 @@ header .container button box-icon {
 #eventos .container button a {
     text-decoration: none;
     font-weight: 600;
-    color: #5fa3f7;
+    color: var(--complemtary-color);
 }
 
 #eventos .container button:hover {
     color: #fff;
-    background-color: #5fa3f7;
+    background-color: var(--complemtary-color);
 }
 
 #eventos .container button:hover a {
@@ -122,12 +128,12 @@ header .container button box-icon {
 /* Produtos */
 
 #produtos .nav-tabs .nav-link {
-    color: #5fa3f7;
+    color: var(--complemtary-color);
 }
 
 #produtos .nav-tabs .nav-link.active {
-    background-color: #5fa3f7;
-    border-color: #5fa3f7;
+    background-color: var(--complemtary-color);
+    border-color: var(--complemtary-color);
     color: #fff;
     border-bottom: none;
     font-weight: 600;
