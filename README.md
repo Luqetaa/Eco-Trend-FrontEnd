@@ -1,30 +1,25 @@
-# Narga Store
+# BioWear - Loja de Roupas Ecológicas
 
-Bem-vindo ao repositório da Narga Store! Este projeto foi criado para demonstrar na prática o aprendizado de várias tecnologias web.
+BioWear é uma loja online que oferece uma seleção de roupas ecológicas e sustentáveis, feitas com materiais orgânicos e processos de produção éticos. Nosso compromisso é com a moda consciente, proporcionando produtos que respeitam tanto o meio ambiente quanto as pessoas envolvidas em sua produção.
 
 ## Objetivo do Projeto
 
-O principal objetivo da Narga Store é aplicar conhecimentos adquiridos em desenvolvimento web, utilizando HTML, CSS e Bootstrap, para criar uma loja online simples, focada na venda de narguiles e acessórios.
-
-## Estrutura do Projeto
-
-O projeto é composto por:
-
-- **index.html**: Arquivo principal que estrutura o site.
-- **style.css**: Arquivo com estilos personalizados.
-- **lib/**: Pasta que contém bibliotecas externas (Bootstrap, Font Awesome).
+O principal objetivo da Biowear é aplicar conhecimentos adquiridos em desenvolvimento web, utilizando HTML, CSS e Bootstrap, para criar uma loja online simples, focada na venda de roupas ecologicas.
 
 ## Tecnologias Utilizadas
 
 - **HTML**: Estruturação do conteúdo da página.
 - **CSS**: Estilização visual.
 - **Bootstrap**: Framework para design responsivo e componentes prontos.
+- **JavaScript**: Local storage e manipulação de DOM.
 
 ## Acesso
 
-Para visualizar o site, basta abrir o arquivo `index.html` em um navegador web.
+Deploy do site no vercel: [Texto a ser exibido](https://biowear-apparel.vercel.app/).
 
-## Contribuições
+## Desenvolvedores
 
-Este projeto não aceita contribuições. O foco é a aplicação prática do aprendizado.
-
+Lucas Cavalcante 562857
+Matheus Rodrigues 561689
+Caio Nascimento 561383
+Manoah Leão 563713
