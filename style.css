@@ -32,7 +32,6 @@
 header .container h1 {
     font-size: 24px;
     color: #fff;
-    text-shadow: 20px 10px 5px black;
     cursor: pointer;
 }
 
