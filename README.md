@@ -15,7 +15,7 @@ O principal objetivo da Biowear é aplicar conhecimentos adquiridos em desenvolv
 
 ## Acesso
 
-Deploy do site no vercel: [Texto a ser exibido](https://biowear-apparel.vercel.app/).
+Deploy do site no vercel: [BioWear Apparel](https://biowear-apparel.vercel.app/).
 
 ## Desenvolvedores
 
